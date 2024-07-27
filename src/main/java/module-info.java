@@ -39,5 +39,6 @@ module io.github.gleidsonmt.dashboardfx {
     opens io.github.gleidsonmt.dashboardfx.core.model to javafx.fxml;
     opens io.github.gleidsonmt.dashboardfx.core.controls.skin to javafx.fxml;
     opens io.github.gleidsonmt.dashboardfx.core.picture_selector to javafx.fxml;
-
+    opens io.github.gleidsonmt.dashboardfx.model to javafx.fxml;
+    exports io.github.gleidsonmt.dashboardfx.model;
 }
